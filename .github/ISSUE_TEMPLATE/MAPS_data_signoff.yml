@@ -160,4 +160,24 @@ body:
         - Sufficient
         - Not sufficient
     validations:
+      required: true
+  - type: dropdown
+    id: maps_contact
+    attributes:
+      label: MAPS Contact***
+      description: Priority *** - Check if MAPS contact details are recorded e.g. Binyam Girma
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_download_link
+    attributes:
+      label: Resource download links **
+      description: Priority ** - Only to be included if the licence permits it. Verify that the resource links are not broken. e.g., ICA Malawi - Second-level Administrative...Zipped Shapefile. This layer contains the second-level administrative unit boundaries (districts) for Malawi. Data source: WFP [download here](https://geonode.wfp.org/geoserver/wfs?format_options=charset:UTF8&typename=geonode:mwi_nd_admin2&outputFormat=SHAPE-ZIP&version=1.0.0&service=WFS&request=GetFeature) 
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
       required: true      
