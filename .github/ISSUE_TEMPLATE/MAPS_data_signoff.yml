@@ -130,4 +130,34 @@ body:
         - Sufficient
         - Not sufficient
     validations:
+      required: true
+  - type: dropdown
+    id: update_frequency
+    attributes:
+      label: Update frequency**
+      description: Priority ** - Verify i.e. How frequent is the resource collected? e.g., As needed/quarterly/bi-annually
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
+      required: true
+  - type: dropdown
+    id: representation_type
+    attributes:
+      label: Representation type*
+      description: Priority * - Verify e.g., Vector or Raster
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
+      required: true
+  - type: dropdown
+    id: coordinate_reference_system
+    attributes:
+      label: Coordinate reference system*
+      description: Priority * - Verify e.g., WGS 1984
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
       required: true      
