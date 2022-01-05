@@ -71,7 +71,7 @@ body:
         - Not sufficient
     validations:
       required: true
-   - type: dropdown
+  - type: dropdown
     id: date_published
     attributes:
       label: Date Published
