@@ -1,5 +1,5 @@
 name: GeoNetwork Metadata Signoff Checklist
-description: MAPS GeoNetwork Metadata Signoff Checklist. This is to be completed for each metadata record in the MAPS catalogue before it is published.
+description: This checklist is to be completed for each metadata record in the MAPS catalogue before it is published.
 title: "[Dataset]: "
 labels: ["documentation"]
 assignees:
