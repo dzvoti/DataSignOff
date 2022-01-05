@@ -197,7 +197,7 @@ body:
     id: publish_permission
     attributes:
       label: Published/Did not Publish
-      description: Have you published the metadata record in its current state?
+      description: Have you published/signed-off the metadata record in its current state?
       options:
         - "Yes"
         - "No (comment below)"
