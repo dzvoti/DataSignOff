@@ -187,8 +187,8 @@ body:
       label: Publish/Do not Publish
       description: Is this resource publishable in its current state?
       options:
-        - Yes
-        - No (comment below)
+        - "Yes"
+        - "No (comment below)"
     validations:
       required: true
   - type: textarea
