@@ -180,4 +180,4 @@ body:
         - Sufficient
         - Not sufficient
     validations:
-      required: true      
+      required: true
