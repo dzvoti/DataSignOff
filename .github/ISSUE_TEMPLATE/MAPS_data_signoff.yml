@@ -120,4 +120,14 @@ body:
         - Sufficient
         - Not sufficient
     validations:
+      required: true
+  - type: dropdown
+    id: resource_contact
+    attributes:
+      label: Contact for the resource***
+      description: Priority *** - Verify the contacts i.e. Who is the originator/responsible party for the data? e.g., Organisation-**Ethiopian Public Health Institute (EPHI)**, Principal investigator-**Mr Dilnesaw Zerfu**, email- **zerfu@ephi.et**
+      options:
+        - Sufficient
+        - Not sufficient
+    validations:
       required: true      
