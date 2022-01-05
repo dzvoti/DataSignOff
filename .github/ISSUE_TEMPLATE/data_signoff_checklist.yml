@@ -1,14 +1,16 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: MAPS GeoNetwork Metadata Signoff Checklist
+description: MAPS GeoNetwork Metadata Signoff Checklist
+title: "[Dataset]: "
+labels: ["documentation"]
 assignees:
-  - octocat
+  - dzvoti
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        |Thanks for taking the time to fill out this bug report!| test|
+        |-|-|
+        |test|test|
   - type: input
     id: contact
     attributes:
