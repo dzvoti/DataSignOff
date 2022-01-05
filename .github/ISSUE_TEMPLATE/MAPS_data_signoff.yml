@@ -8,36 +8,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        |Key| Description|
+        |Priority Level| Description|
         |-|-|
         |***|Mandatory, do not publish/sign-off without it|
         |**|High, the resource can be published but seek further information from MAPS contact person after signoff and update the record|
-        |*|Low, the resource can be published without this detail|
-  - type: checkboxes
-    id: reource_name
-    attributes:
-      label: Resource Name***
-      description: "Check if the name corresponds with the resource"
-      options:
-        - label: Sufficient for publication
-        - label: Not sufficient for publication
-          required: true      
+        |*|Low, the resource can be published without this detail|      
   - type: dropdown
-    id: reource_name2
+    id: resource_name
     attributes:
-      label: Resource Name***
-      description: Check if the name corresponds with the resource
+      label: Resource Name
+      description: Priority*** - Check if the name corresponds with the resource
       options:
         - Sufficient for publication
         - Not sufficient for publication
     validations:
       required: true
-  - type: checkboxes
-    id: permission_publish
+  - type: dropdown
+    id: abstract
     attributes:
-      label: Publish/Do not publish
-      description: Overally is this metadata record sufficient for publication?
+      label: Abstract
+      description: Priority*** - Data summary and processing methodology can also be captured here.e.g., The data used to compile the tables were gathered from scientific literature on Malawian food analyses.
       options:
-        - label: Sufficient
-        - label: Not sufficient
-          required: true
+        - Sufficient for publication
+        - Not sufficient for publication
+    validations:
+      required: true      
