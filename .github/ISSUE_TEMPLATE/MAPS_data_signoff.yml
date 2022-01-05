@@ -196,8 +196,8 @@ body:
   - type: dropdown
     id: publish_permission
     attributes:
-      label: Publish/Do not Publish
-      description: Is this resource publishable in its current state?
+      label: Published/Did not Publish
+      description: Have you published the metadata record in its current state?
       options:
         - "Yes"
         - "No (comment below)"
