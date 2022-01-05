@@ -115,7 +115,7 @@ body:
     id: legal_constraints
     attributes:
       label: Legal constraints
-      description: Priority *** - Verify the licence with data origin e.g. Full access conditions are available [here] (https://ephi.gov.et/images/nutrition/ethiopian-national-vitamin-a-deficiency-survey)
+      description: Priority *** - Verify the licence with data origin e.g. Full access conditions are available [here](https://ephi.gov.et/images/nutrition/ethiopian-national-vitamin-a-deficiency-survey)
       options:
         - Sufficient
         - Not sufficient
