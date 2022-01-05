@@ -8,6 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
+        Thank you using this repository to review MAPS GeoNetwork metadata records. Please loginto [MAPS GeoNetwork](https://metadata.micronutrient.support/geonetwork/srv/eng/catalog.signin?redirect=https%3A%2F%2Fmetadata.micronutrient.support%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%3Bjsessionid%3DFCF5548CA8501232E70F21B437D881AD%23%2Fhome) to review your assigned record.
+        
+        ---
+        
+        
         |Priority Level| Description|
         |-|-|
         |***|Mandatory, do not publish/sign-off without it|
