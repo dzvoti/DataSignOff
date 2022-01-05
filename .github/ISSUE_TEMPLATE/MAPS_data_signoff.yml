@@ -181,3 +181,19 @@ body:
         - Not sufficient
     validations:
       required: true
+  - type: dropdown
+    id: publish_permission
+    attributes:
+      label: Publish/Do not Publish
+      description: Is this resource publishable in its current state?
+      options:
+        - Yes
+        - No (comment below)
+    validations:
+      required: true
+  - type: textarea
+    id: additional_comments
+    attributes:
+      label: Additional comments
+      description: Do you have any additional comments for the MAPS Geonetwork administrator
+      render: shell      
