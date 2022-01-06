@@ -1,4 +1,4 @@
-# DataSignOff
+# MAPS GeoNetwork Catalogue Metadata SignOff
 What is GeoNetwork?
 GeoNetwork is a data cataloguing application:
 -	to manage spatially referenced resources. 
